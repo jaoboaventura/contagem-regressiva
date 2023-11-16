@@ -1,52 +1,153 @@
-body {
-    font-family: 'Raleway', sans-serif;
+main {
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(to right, blueviolet, rgb(107, 12, 196))
+}
+
+.conteudo {
+  background-color: rgba(176, 85, 255, 0.53);
+  height: 90rem;
+  width: 65rem;
+  border: 2px solid rgba(255, 255, 255, 0.72);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.contador-titulo {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin: 0 1rem;
+  padding-bottom: 2.5rem;
+  color: white;
+  text-align: center;
+}
+
+.tabela {
+  font-size: 6.5rem;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+
+.contador-subtitulo {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1100px) {
+  .conteudo {
+    background-color: rgba(176, 85, 255, 0.53);
+    height: 90rem;
+    width: 40rem;
+    border: 2px solid rgba(255, 255, 255, 0.72);
+    border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    margin: 0;
-    background-color: rgb(221, 186, 255);
-  }
-
-  .conteudo {
-    display: block;
-    justify-content: center;
+    flex-direction: column;
+  
   }
   
-  .contador {
-    display: block;
-    font-size: 5em;
-    font-weight: 700;
-    background-color: rgba(255, 240, 247, 0.692);
-    height: 20rem;
-    align-items: center;
-    justify-content: center;
-    width: 80rem;
-    border-radius: 50px;
-  }
-
-  .tabela {
-    display: flex;
-    justify-content: center;
-  }
-
   .contador-titulo {
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 700;
-    color: blueviolet;
+    margin: 0 1rem;
+    padding-bottom: 2.5rem;
+    color: white;
     text-align: center;
   }
-
+  
+  .tabela {
+    font-size: 6.5rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+  }
+  
   .contador-subtitulo {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: 400;
   }
+}
+
+
+@media screen and (max-width: 768px) {
+  .conteudo {
+    background-color: rgba(176, 85, 255, 0.53);
+    height: 80rem;
+    width: 25rem;
+    border: 2px solid rgba(255, 255, 255, 0.72);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   
-  .contador div {
-    margin: 0 10px;
+  }
+  
+  .contador-titulo {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin: 0 1rem;
+    padding-bottom: 2.5rem;
+    color: white;
     text-align: center;
   }
   
-  .contador span {
-    display: block;
+  .tabela {
+    font-size: 6.5rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
   }
+  
+  .contador-subtitulo {
+    font-size: 2.5rem;
+    font-weight: 400;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .conteudo {
+    background-color: rgba(176, 85, 255, 0.53);
+    height: 30rem;
+    width: 20rem;
+    border: 2px solid rgba(255, 255, 255, 0.72);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+  }
+  
+  .contador-titulo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0 .5rem;
+    padding-bottom: 2.5rem;
+    color: white;
+    text-align: center;
+  }
+  
+  .tabela {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+  }
+  
+  .contador-subtitulo {
+    font-size:.9rem;
+    font-weight: 400;
+  }
+}
