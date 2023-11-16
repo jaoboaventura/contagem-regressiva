@@ -1,0 +1,52 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(221, 186, 255);
+  }
+
+  .conteudo {
+    display: block;
+    justify-content: center;
+  }
+  
+  .contador {
+    display: block;
+    font-size: 5em;
+    font-weight: 700;
+    background-color: rgba(255, 240, 247, 0.692);
+    height: 20rem;
+    align-items: center;
+    justify-content: center;
+    width: 80rem;
+    border-radius: 50px;
+  }
+
+  .tabela {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contador-titulo {
+    font-size: 3rem;
+    font-weight: 700;
+    color: blueviolet;
+    text-align: center;
+  }
+
+  .contador-subtitulo {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  
+  .contador div {
+    margin: 0 10px;
+    text-align: center;
+  }
+  
+  .contador span {
+    display: block;
+  }
